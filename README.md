@@ -16,7 +16,7 @@ A portfolio optimizer that goes beyond mean–variance. Instead of relying on a
 single historical covariance matrix, it drives optimization with a **generative
 crisis engine** that simulates distinct market regimes with tunable severity,
 frequency, and correlation breaks. You build a book from any assets, ETFs, and
-protective options; optimize composition and sizing; validate out-of-sample;
+options; optimize composition and sizing; validate out-of-sample;
 stress-test against each crisis regime; and backtest the sized portfolio against
 real history.
 
@@ -29,9 +29,7 @@ real history.
   ratio with CRRA sizing.
 - **Two-stage solver** — efficient composition blend, then leverage-constrained
   sizing.
-- **Arithmetic-return pinning** — assets locked to target arithmetic returns
-  while preserving crisis impact on the tail.
-- **Protective options** — long puts/calls with per-crisis strike and
+- **Options as allocation candidates** — long puts/calls with per-crisis strike and
   implied-vol tuning.
 - **Out-of-sample validation** — reprices the fixed book on a fresh seed for
   unbiased stats.
@@ -56,13 +54,5 @@ Reflex web UI  ──▶  FastAPI compute service  ──▶  market data (retur
 ## Tech
 
 `Reflex` · `FastAPI` · `NumPy` · `Plotly` · `Monte Carlo`
-
-## Why it's closed-source
-
-The calibrated regime engine, the sizing/composition solver, and the data
-pipeline are the product's edge. Generic, textbook building blocks are
-open-sourced separately — e.g. **[kelly-sizing](https://github.com/gregharris73/kelly-sizing)**.
-
----
 
 © Greg Harris · documentation and media only. Not open-source software.
