@@ -84,7 +84,7 @@ Two interchangeable objectives, both grounded in utility theory:
   distribution, not just the first two moments.
 
 A standalone, textbook implementation of the sizing math is open-sourced at
-[kelly-sizing](https://github.com/gregharris73/kelly-sizing).
+[kelly-sizing](https://github.com/harrisgreg07/kelly-sizing).
 
 ## 4. Two-stage solve
 
