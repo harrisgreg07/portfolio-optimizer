@@ -55,4 +55,17 @@ Reflex web UI  ──▶  FastAPI compute service  ──▶  market data (retur
 
 `Reflex` · `FastAPI` · `NumPy` · `Plotly` · `Monte Carlo`
 
+## Disclaimer
+
+This page describes a personal research project and is for educational and
+illustrative purposes only. It is **not investment advice**, and nothing here is
+an offer, solicitation, or recommendation to buy or sell any security or to use
+leverage. Any figures, backtests, or simulated results are illustrative, depend
+on model assumptions and historical or simulated data, and **do not predict
+future performance**. Investing — and leverage in particular — carries
+substantial risk of loss. Consult a qualified financial professional before
+making investment decisions.
+
+---
+
 © Greg Harris · documentation and media only. Not open-source software.
